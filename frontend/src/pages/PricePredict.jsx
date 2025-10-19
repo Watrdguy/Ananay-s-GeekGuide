@@ -30,7 +30,7 @@ export default function PricePredict() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const res = await axios.post("https://your-frontend.onrender.com/predict", formData);
+      const res = await axios.post("https://ananay-s-geekguide.onrender.com/predict", formData);
       setPrice(res.data.predicted_price);
     } catch (err) {
       console.error(err);
