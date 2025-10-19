@@ -1,0 +1,9 @@
+/backend/train.py
+/backend/test.py
+/backend/column_generator.py
+/backend/model/computer_prices_all.csv
+/frontend
+/data
+/test
+README.md
+run.sh
