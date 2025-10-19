@@ -1,0 +1,10 @@
+ASUS
+Acer
+Apple
+Dell
+Gigabyte
+HP
+Lenovo
+MSI
+Razer
+Samsung

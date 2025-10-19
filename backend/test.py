@@ -6,27 +6,27 @@ model = joblib.load("model/computer_price_model_xgb.pkl")
 
 # Columns expected by the model (training dataset)
 column_names = [
-    'device_type', 'brand', 'release_year', 'cpu_brand', 'cpu_model',
+    'device_type', 'brand', 'cpu_brand', 'cpu_model','gpu_brand', 'gpu_model', 'release_year',
     'cpu_cores', 'cpu_threads', 'cpu_base_ghz', 'cpu_boost_ghz',
-    'gpu_brand', 'gpu_model', 'vram_gb', 'ram_gb', 'storage_gb', 'weight_kg'
+     'vram_gb', 'ram_gb', 'storage_gb', 'weight_kg'
 ]
 
 # Input data for Dell laptop (only selected columns)
 input_data = {
     'device_type': ['Laptop'],
     'brand': ['Dell'],
-    'release_year': [2020],
     'cpu_brand': ['Intel'],
     'cpu_model': ['Intel i5-10XXX'],
+    'gpu_brand': ['NVIDIA'],
+    'gpu_model': ['RTX 40 50'],
+    'release_year': [2020],
     'cpu_cores': [6],
     'cpu_threads': [12],
     'cpu_base_ghz': [2.2],
     'cpu_boost_ghz': [3.2],
-    'gpu_brand': ['NVIDIA'],
-    'gpu_model': ['RTX 40 50'],
-    'vram_gb': [4],
-    'ram_gb': [8],
-    'storage_gb': [512],
+    'vram_gb': [8],
+    'ram_gb': [16],
+    'storage_gb': [1024],
     'weight_kg': [1.57]
 }
 

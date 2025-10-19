@@ -1,0 +1,44 @@
+AMD Ryzen 3 3XXX
+AMD Ryzen 3 4XXX
+AMD Ryzen 3 5XXX
+AMD Ryzen 3 6XXX
+AMD Ryzen 3 7XXX
+AMD Ryzen 5 3XXX
+AMD Ryzen 5 4XXX
+AMD Ryzen 5 5XXX
+AMD Ryzen 5 6XXX
+AMD Ryzen 5 7XXX
+AMD Ryzen 7 3XXX
+AMD Ryzen 7 4XXX
+AMD Ryzen 7 5XXX
+AMD Ryzen 7 6XXX
+AMD Ryzen 7 7XXX
+AMD Ryzen 9 3XXX
+AMD Ryzen 9 4XXX
+AMD Ryzen 9 5XXX
+AMD Ryzen 9 6XXX
+AMD Ryzen 9 7XXX
+Apple M1 XXX
+Apple M2 XXX
+Apple M3 XXX
+AppleXXX
+Intel i3-10XXX
+Intel i3-11XXX
+Intel i3-12XXX
+Intel i3-13XXX
+Intel i3-14XXX
+Intel i5-10XXX
+Intel i5-11XXX
+Intel i5-12XXX
+Intel i5-13XXX
+Intel i5-14XXX
+Intel i7-10XXX
+Intel i7-11XXX
+Intel i7-12XXX
+Intel i7-13XXX
+Intel i7-14XXX
+Intel i9-10XXX
+Intel i9-11XXX
+Intel i9-12XXX
+Intel i9-13XXX
+Intel i9-14XXX

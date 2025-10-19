@@ -13,8 +13,8 @@ data = pd.read_csv("model/computer_prices_all.csv")
 
 # Handpick features to use
 selected_features = [
-    'device_type', 'brand', 'model', 'release_year', 'cpu_brand', 'cpu_model', 'cpu_cores', 'cpu_threads', 'cpu_base_ghz',
-    'cpu_boost_ghz', 'gpu_brand', 'gpu_model', 'vram_gb', 'ram_gb', 'storage_gb', 'weight_kg'
+    'device_type', 'brand', 'cpu_brand', 'cpu_model', 'gpu_brand', 'gpu_model', 'release_year', 'cpu_cores', 'cpu_threads', 'cpu_base_ghz',
+    'cpu_boost_ghz', 'vram_gb', 'ram_gb', 'storage_gb', 'weight_kg'
 ]
 
 # Features and target
