@@ -4,7 +4,7 @@ import joblib
 import pandas as pd
 
 app = Flask(__name__, static_folder='dist')
-CORS(app, origins=["http://localhost:5000", "http://127.0.0.1:5000",  "https://your-frontend.onrender.com"])
+CORS(app, origins=["http://localhost:5000", "http://127.0.0.1:5000",  "https://ananay-s-geekguide.onrender.com"])
 
 model = joblib.load("model/computer_price_model_xgb.pkl")
 
@@ -46,6 +46,3 @@ def predict():
     
     except Exception as e:
         return jsonify({"error": str(e)}), 500
-
-if __name__ == "__main__":
-    app.run(debug=True)
